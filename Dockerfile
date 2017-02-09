@@ -1,5 +1,6 @@
-#sdhibit/rpi-raspbian
+# Original : sdhibit/rpi-raspbian
+# This one : alexisducastel/rpi-raspbian
 FROM scratch
-MAINTAINER Steve Hibit <sdhibit@gmail.com>
+MAINTAINER Alexis Ducastel <alexis@ducastel.net>
 
-ADD raspbian.2015.05.05.tar.xz /
+ADD raspbian.tar.xz /
