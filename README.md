@@ -21,6 +21,7 @@ $ ./mkimage-raspbian.sh
 Get some tacos.
 
 ```bash
+$ mv raspbian.$(date +%Y.%m.%d).tar.xz raspbian.tar.xz 
 $ docker build -t rpi-raspbian .
 ```
 
